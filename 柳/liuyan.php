@@ -5,6 +5,7 @@
 		echo "<script>alert('你还没有登录,请先登录');window.location.href='denglu.php';</script>";
 	}else{
 		$username=$_SESSION['uname'];
+echo "未登录";
 	}
 	
 	
